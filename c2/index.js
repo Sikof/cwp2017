@@ -75,6 +75,12 @@ if(mesec % 2 ==0){
 // || ili
 
 
+
+
+
+
+
+
 kolichinaBrashno = 0.7;
 var brashno = true;
 
@@ -215,10 +221,63 @@ function f2c(fahrenheit)
   var fTemp = fahrenheit;
   var fToCel = (fTemp - 32) * 5 / 9;
   var message = fTemp+'\xB0F is ' + fToCel + '\xB0C.';
-    console.log(message);
+  console.log(message);
 }
 
 f2c(120);
 
 
+function c2f(c) 
+{
+var f = c * 1.8 + 32;
+console.log(f);
+}
+function f2c(f){
+	var c = (f - 32) / 1.8;
+	console.log(c);
+}
 
+function temp(t, ct){
+	switch(ct){
+		case 'c2f':
+		c2f(t);
+		break;
+		case 'f2c':
+		f2c(t);
+		break;
+	}
+}
+
+
+
+function ubavoime(ime)
+{
+	switch(ime.length % 2){
+		case 0:
+	console.log('paren');
+	break;
+	case 1:
+	console.log('neparen');
+	break;
+}
+}
+ubavoIme('Viktor');
+
+
+function ubavoIme(ime){
+	switch(ime.length % 2){
+		case 0:
+			console.log('Ubavo ime');
+			break;
+			case 1:
+				console.log('Neubavo ime');
+				break;
+	}
+}
+ubavoIme('Bojan');
+
+
+
+
+
+// 
