@@ -13,3 +13,5 @@
 [1130/130252.898:ERROR:process_info.cc(632)] range at 0xad3c37e000000000, size 0x17a fully unreadable
 [1130/130252.915:ERROR:process_info.cc(632)] range at 0xad3c384400000000, size 0x17a fully unreadable
 [1130/130252.915:ERROR:process_info.cc(632)] range at 0x0, size 0x17a fully unreadable
+[1207/013150.363:ERROR:settings.cc(266)] Settings version is not 1
+[1207/082550.318:ERROR:settings.cc(266)] Settings version is not 1

@@ -84,4 +84,25 @@ for(var i = 0; i < niza.length; i++){
 
 }
 
+var niza5 = [2, 5, 3, 2, 3, 3, 5, 1, 1, 4, 4, 2, 4, 2, 2, 4];
+
+var a = 0;
+function ThatsTheWrongNumber(even){
+	
+    for (var i = 0; i < even.length; i++){
+        if (even[i] % 2 == 0){
+            a = a + 1;
+            	if (a == 3){
+	console.log(even[i]);
+		a = 0;
+            }
+        }
+    }
+}
+
+ThatsTheWrongNumber(niza5);
+
+
+
+
 		
